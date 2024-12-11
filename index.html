@@ -3,8 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>programming</title>
     <style>
+      body {
+        font-size: 16px;
+      }
+      .vhTest {
+        height: 50vh;
+        width: 50vw;
+        background-color: red;
+      }
       table,
       th,
       td {
@@ -14,26 +23,85 @@
       th,
       td {
         padding: 4px;
-        
       }
-      tr:nth-child(even){
-                background-color: lightblue;
+      tr:nth-child(even) {
+        background-color: lightblue;
       }
-      th:nth-child(even),td:nth-child(even) {
-  background-color: lightblue;
-}
+      th:nth-child(even),
+      td:nth-child(even) {
+        background-color: lightblue;
+      }
+      .responsive-box {
+        width: 200px;
+        height: 150px;
+        background-color: blue;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .list {
+        border: 1px solid black;
+        background-color: antiquewhite;
+        height: 40px;
+        font-size: 1rem;
+      }
+      @media screen and (min-width: 600px) {
+        .container {
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+        .list {
+          min-width: 100px;
+          height: 80px;
+        }
+        body {
+          font-size: 12px;
+        }
+      }
+      @media screen and (min-width: 980px) {
+        .container {
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+        .list {
+          min-width: 100px;
+          height: 80px;
+        }
+        body {
+          font-size: 12px;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        .container {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+        .list {
+          min-width: 100px;
+          height: 900px;
+        }
+        body {
+          font-size: 12px;
+        }
+      }
     </style>
   </head>
   <body>
-    <table style="width: 70%;">
+    <div class="vhTest"></div>
+    <table style="width: 70%">
       <tr>
-        <th style="width: 5%;">Roll</th>
+        <th style="width: 5%">Roll</th>
         <th>Name</th>
         <th>Address</th>
       </tr>
       <tr>
-    
-        <td style="background-color: white;">1</td>
+        <td style="background-color: white">1</td>
         <td>Mohan Krishna Shrestha</td>
         <td>Bhakundebesi</td>
       </tr>
@@ -48,5 +116,45 @@
         <td>Banepa</td>
       </tr>
     </table>
+    <div class="responsive-box"></div>
+    <div class="container">
+      <div class="list">Hello world</div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+      <div class="list"></div>
+    </div>
   </body>
 </html>

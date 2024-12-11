@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  f
 }
 .header {
     width: 100%;
@@ -43,6 +44,7 @@
 }
 /*this is before navigation*/
 .navigation {
+  font-family: "Playwrite HU", cursive ;
     padding: 5px;
   display: flex;
   justify-content: space-between;
@@ -84,6 +86,7 @@ a {
 } */
  .main{
     background:lightcoral;
+   
     
  }
 .div-m1{
