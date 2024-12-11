@@ -13,8 +13,7 @@
 .div-h1{
     padding: 10px;
     display: flex;
-    max-width: 430;
-    gap: 10px;
+       gap: 10px;
     justify-content: space-between;
     height: 50px;
 }
@@ -46,12 +45,28 @@ align-items: center;
     background-color:rgb(242, 182, 182);
     justify-content: space-evenly;
 }
+/* now for main part */
+.group-image{
+    height: auto;
+     width: 430px;
+}
+.div-m-s1{
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(139, 139, 254);
+}
 @media screen and (min-width: 500px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
 .header{
+    margin: 0;
+    padding: 0;
     background:rgb(234, 142, 142);
 }
 .div-h1{
-    min-width: 430;
+   
     height: 90px;
 }
 .notice{
@@ -73,6 +88,11 @@ align-items: center;
 }
 .img-h2{
     width: 90px;
+}
+/* this part is for main */
+.group-image{
+    height: auto;
+     width: 700px;
 }
 
 }
