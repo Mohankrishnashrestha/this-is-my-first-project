@@ -42,6 +42,9 @@
     display: flex;
     justify-content: space-evenly;
 }
+@media only screen and (max-width: 600px){
+  
+}
 /*this is before navigation*/
 .navigation {
   font-family: "Playwrite HU", cursive ;
