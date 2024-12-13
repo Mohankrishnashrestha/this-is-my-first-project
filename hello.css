@@ -2,14 +2,14 @@
 *{
     margin: 0;
     padding: 0;
-     
+    
 }
 
 .header{
  
-    width: 430px;
+    width: 100%;
     background-color: #d9f7be;
-    
+  
 }
 .logo{
     padding: 5px;
@@ -22,7 +22,7 @@
     background-color: rgb(243, 238, 248);
     
     }
-    a{
+    .navi{
         text-decoration: none;
         color: black;
     }
@@ -40,7 +40,7 @@ h2,.paragraph{
     justify-content: center;
     background-color: #0958d9;
     color: white;
-    font-family: "Open Sans", sans-serif; 
+    font-family: "Inter", sans-serif; 
 }  
 h2{
     font-weight: 200px;
@@ -54,9 +54,106 @@ h2{
     justify-content: center;
   
 }
+.div-figimage{
+    display: flex;
+    justify-content: center;
+}
 .figimage{
-    width: 160px;
+    
+    display: flex;
+    justify-content: center;
 
   }
+  @media only screen and (min-width: 600px){
+    .image-and-paragraph{
+        display: flex;
+        gap: 10px;
+        
+    }
+    .group-image{
+        width:650vh;
+
+    }
+    .paragraph{
+        font-size: 84%;
+    }
+    .figure{
+        margin-top: 1%;
+    }
+    .figimage{
+        width: 60%;
+        display: flex;
+        margin-left: 28%;
+    
+      }
+  }
+  .paragraph-of-company{
+    display: flex;
+    justify-content: center;
+    padding: 6%;
+    font-family: "Inter", sans-serif; 
+
+  }
+  .instructonal-profile{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    gap: 10px;
+
+  }
+  .top-of-instruction-cycle{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: #eaff8f;
+    border: 1px solid black;
+    
+  }
+ 
+.section-list-of-ic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    gap: 10px;
+}
+.is{
+    padding: 3%;
+    border: 1px solid grey;
+    background-color: white;
+    display: flex;
+    justify-content: center;    
+}
+
+  .footer{
+    background-color: #237804;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  h4{
+    padding: 5px;
+    display: flex;
+    font-weight: 100;
+    margin-left: 2vh;
+    font-size: large;
+  }
+  .footer-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4vh;
+  }
+  .footer-li{
+    padding: 1%;
+    font-size: large;
+  }
+  .a-footer{
+    text-decoration: none;
+  }
+
   
+    
 
