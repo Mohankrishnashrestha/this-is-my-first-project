@@ -1,122 +1,128 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+header {
+  background-color: #73d13d;
+}
+.img-logo{
+    padding: 5px;
+}
+.navigation {
+  display: flex;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
 
 }
-body{
-    background-color: #fff7e6;
+.navi {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+    
+  background-color: #feffe6;
 }
-.header{
-    margin: 0;
-    padding: 0;
-    background-color:aliceblue;
-    height: auto;
-    max-width: 430;
+.navi:hover {
+  background-color: red;
 }
-.div-h1{
-    padding: 10px;
-    display: flex;
-       gap: 10px;
-    justify-content: space-between;
-    height: 50px;
+.div-of-main-1 {
+  margin-top: 5px;
 }
-
-.section-h1{
-width: 70%;
-display: flex;
-align-items: center;
+.introduction-of-arthik {
+  border: 1px solid black;
+  background-color: #4096ff;
 }
-.section-h2{
- 
-    width: 20%;
-    display: flex;
-    flex-direction: column;
+.introduction {
+  width: 97%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.section-h3{
-    width: 10%;
-    display: flex;
-}
-.img-h1{
-    width: 250px;
-}
-.img-h2{
-    width: 50px;
-}
-.notice{
+.div-of-introduction {
+  
+    width: 97%;
     padding: 5px;
     display: flex;
-    background-color:#FBF6E9;
-    color: #118B50;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+  
+
 }
-/* now for main part */
-.group-image{
-    height: auto;
-     width: 430px;
+.paragraph-of-introduction{
+    padding: 20px;
 }
-.div-m-s1{
+.message{
     padding: 5px;
-    border: 1px solid black;
-    background-color: rgb(139, 139, 254);
+    display: flex;
+    justify-content: center;
+    font-size: large;
 }
-.figure{
-   background-color: rgb(141, 185, 224);
+.image-of-figure{
+    padding: 5px;
+    width: 35vh;
+}
+.message-part{
+    padding: 5px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 5px;
+    background-color: white;
 }
-/* .figcaption{
+.div-of-figure{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.name-of-the-oficer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-} */
-@media screen and (min-width: 500px){
-    *{
-        padding: 0;
-        margin: 0;
-    }
-.header{
-    margin: 0;
-    padding: 0;
-    background:rgb(234, 142, 142);
+    gap: 5px;
+    align-items: center;
 }
-h1{
-    padding: 2px;
-    display: flex;
-    justify-content: center;
 
-}
-.div-h1{
-   
-    height: 90px;
-}
-.notice{
+.description-of-the-officer{
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 97%;
+
 }
-.section-h1{
-    width: 60%;
-   
+.paragraph-of-description{
+    padding: 20px;
 }
-.section-h2{
-    width: 25%;
+.div-instruction-cycle{
+    width: 97%;
+}
+.heading-of-instruction-cycle{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: large;
+    font-weight: 100;
+    background-color: rgb(18, 171, 18);
+}
+.ic{
+    display: flex;
+    justify-content: right;
+    padding: 5pxs;
+    border: 1px solid grey;
+    padding: 5px;
+}
+.dic-ic{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+       
+}
+@media only screen and (min-width: 600px){
+
+
 }
 
-.section-h3{
-    width: 15%;
-}
-.img-h1{
-    width: 500px;
-}
-.img-h2{
-    width: 90px;
-}
-/* this part is for main */
-.group-image{
-    height: auto;
-     width: 700px;
-}
-.div-m1{
-    display: flex;
-}
-}
 
