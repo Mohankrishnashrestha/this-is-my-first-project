@@ -4,17 +4,18 @@
   width: 100%;
 }
 header {
+ 
   background-color: #73d13d;
 }
-.img-logo{
-    padding: 5px;
+.img-logo {
+  padding: 5px;
 }
 .navigation {
   display: flex;
   text-decoration: none;
   display: flex;
   justify-content: space-evenly;
-
+  
 }
 .navi {
   padding: 5px;
@@ -24,11 +25,13 @@ header {
   text-transform: uppercase;
   color: black;
   text-decoration: none;
-    
+
   background-color: #feffe6;
 }
 .navi:hover {
-  background-color: red;
+  background-color: #888888;
+  font-weight: 100;
+  font-size: large;
 }
 .div-of-main-1 {
   margin-top: 5px;
@@ -45,84 +48,127 @@ header {
   align-items: center;
 }
 .div-of-introduction {
-  
-    width: 97%;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+  width: 97%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph-of-introduction {
+  padding: 20px;
+}
+.message {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+.image-of-figure {
+  padding: 5px;
+  width: 35vh;
+}
+.message-part {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: white;
+}
+.div-of-figure {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.name-of-the-oficer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
 
+.description-of-the-officer {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 97%;
 }
-.paragraph-of-introduction{
-    padding: 20px;
+.paragraph-of-description {
+  padding: 20px;
 }
-.message{
-    padding: 5px;
+.div-instruction {
+  width: 97%;
+}
+
+.heading-of-instruction-cycle {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-size: large;
+  font-weight: 100;
+  background-color: rgb(18, 171, 18);
+}
+.ic {
+  display: flex;
+  justify-content: center;
+  padding: 5pxs;
+  border: 1px solid grey;
+  padding: 5px;
+  text-transform: capitalize;
+}
+.ic:hover {
+  background-color: #feffe6;
+  box-shadow: 5px 5px 5px 5px #888888;
+  font-size: large;
+}
+
+.dic-ic {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  gap: 10px;
+}
+@media only screen and (min-width: 600px) {
+  .div-of-main-1 {
     display: flex;
-    justify-content: center;
-    font-size: large;
-}
-.image-of-figure{
-    padding: 5px;
-    width: 35vh;
-}
-.message-part{
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
     gap: 5px;
-    background-color: white;
-}
-.div-of-figure{
+  }
+  .image-of-arthik {
+    width: 60%;
+    height: 260px;
+  }
+  .introduction-of-arthik {
+    width: 40%;
+  }
+  .paragraph-of-introduction {
+    padding: 0px;
+    flex-wrap: wrap;
+  }
+  .message-and-instruction-cycle {
     display: flex;
-    justify-content: center;
     padding: 5px;
-}
-.name-of-the-oficer{
+    width: 97%;
+    
+  }
+  .message-and-image {
     display: flex;
-    flex-direction: column;
+    
+    width: 50%;
+  }
+  .applicaion-of-instruction-cycle {
+    display: flex;
     gap: 5px;
-    align-items: center;
+  
+  }
+ .image-of-figure{
+  width: 100px;
+ }
+ .paragraph-of-description{
+  width:140px;
+  font-size: small  ;
+ }
+ .name-of-the-oficer{
+  font-size: small;
+  width: 140px;
+ }
 }
-
-.description-of-the-officer{
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    width: 97%;
-
-}
-.paragraph-of-description{
-    padding: 20px;
-}
-.div-instruction-cycle{
-    width: 97%;
-}
-.heading-of-instruction-cycle{
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    font-size: large;
-    font-weight: 100;
-    background-color: rgb(18, 171, 18);
-}
-.ic{
-    display: flex;
-    justify-content: right;
-    padding: 5pxs;
-    border: 1px solid grey;
-    padding: 5px;
-}
-.dic-ic{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-       
-}
-@media only screen and (min-width: 600px){
-
-
-}
-
 
