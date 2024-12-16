@@ -4,7 +4,6 @@
   width: 100%;
 }
 header {
- 
   background-color: #73d13d;
 }
 .img-logo {
@@ -15,7 +14,6 @@ header {
   text-decoration: none;
   display: flex;
   justify-content: space-evenly;
-  
 }
 .navi {
   padding: 5px;
@@ -136,39 +134,41 @@ header {
     width: 60%;
     height: 260px;
   }
+  .introduction {
+    padding: 10px;
+  }
   .introduction-of-arthik {
     width: 40%;
+    height: 420px;
   }
   .paragraph-of-introduction {
-    padding: 0px;
+    padding: 10px;
     flex-wrap: wrap;
+    font-size: larger;
   }
   .message-and-instruction-cycle {
     display: flex;
-    padding: 5px;
+    padding: 10px;
     width: 97%;
-    
   }
   .message-and-image {
     display: flex;
-    
-    width: 50%;
   }
   .applicaion-of-instruction-cycle {
     display: flex;
-    gap: 5px;
-  
+    gap: 10px;
   }
- .image-of-figure{
-  width: 100px;
- }
- .paragraph-of-description{
-  width:140px;
-  font-size: small  ;
- }
- .name-of-the-oficer{
-  font-size: small;
-  width: 140px;
- }
 }
-
+.div-of-service-information{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.service-information{
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 5px 5px 5px 5px #888888;
+  
+}
