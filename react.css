@@ -156,19 +156,67 @@ header {
   }
   .applicaion-of-instruction-cycle {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+  }
+  .dic-ic {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
-.div-of-service-information{
+.div-of-service-information {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.service-information{
+.service-information {
   border: 1px solid grey;
   display: flex;
   flex-direction: column;
   gap: 10px;
   box-shadow: 5px 5px 5px 5px #888888;
-  
+}
+.name-of-services {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+.div-of-news-and-event {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 97%;
+}
+.news-and-events {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.name-of-news-and-events {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+@media only screen and (min-width: 600px) {
+  .div-of-service-information {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+  }
+  .div-of-news-and-event {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+  }
+  .name-of-news-and-events,
+  .name-of-services {
+    font-size: larger;
+    font-weight: 100;
+  }
 }
