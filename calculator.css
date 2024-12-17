@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin :0;
+
+}
+body{
+    background-color: white;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.section{
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5a717;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+    
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
