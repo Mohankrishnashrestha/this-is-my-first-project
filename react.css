@@ -219,8 +219,16 @@ header {
     font-size: larger;
     font-weight: 100;
   }
+  .footer-main{
+    display: flex;
+  }
 }
 .footer-main{
-  background-color: #73d13d;
+  background-color: #7cb305;
   padding: 10px;
+  color:white;
+
+}
+.button{
+  width: 100px;
 }
