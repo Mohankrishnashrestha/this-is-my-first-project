@@ -29,7 +29,8 @@ function myFunction(){
         const a=document.createElement("li");
 
     const t= document.createTextNode(element);
-    a.appendChild(t);
+    a.appendChild(t);  
     document.getElementById("ul").appendChild(a);
  
     });}
+    
