@@ -4,28 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      table,tr,th,td{
+        border: 1px solid black;
+      }
+    </style>
   </head>
-  <body>
+  <!-- <body>
     <ul id="ul">
 
     </ul>
 
     <button onclick="myFunction()">click on</button>
 
-    <br>
-    <table>
-      <tr>
-        <th>name</th>
-        <th>address</th>
-        <th>roll</th>
+    <br> -->
+   
+<div id="demo">
+  <table id="table">
+    <tr>
+      <th>name</th>
+      <th>roll</th>
+      <th>address</th>
 
-      </tr>
-      <tr id="table">
+    </tr>
+  </table>
+</div>
+<button id="add">add</button>
 
-      </tr>
-    </table>
-    <button onclick="concatinated()">ADD</button>
+    <script src="new.js">
 
-    <script src="new.js"></script>
+    </script>
+    <script>
+      const data=[
+        ["rajan",19,"bhakunde"],
+        ["sangram",30,"panauti"],
+        ["niraj",20,"banepa"],
+      ];
+      const nra =document.getElementById("table");
+      const click=document.getElementById("add")
+    </script>
   </body>
 </html>
